@@ -28,6 +28,7 @@
     "react-barcode": "^1.5.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
+    "react-speech-recognition": "^3.10.0",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {

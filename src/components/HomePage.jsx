@@ -5,6 +5,7 @@ import DatePickerComponent from './DatePickerComponent';
 import logo from '../assets/logo.png'
 import banner from '../assets/banner.png'
 import { useAuth0 } from '@auth0/auth0-react';
+import AIButton from './AIButton';
 
 
 export default function HomePage() {
@@ -83,6 +84,9 @@ export default function HomePage() {
                         </Link>
                     </div>
                 </div>
+            </div>
+            <div>
+                <AIButton/>
             </div>
             </div>
         </>

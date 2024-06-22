@@ -10,6 +10,7 @@ import Success from './components/Success';
 import More from './components/More';
 import GetStarted from './components/GetStarted';
 import Tcard from './components/Tcard';
+import Dictaphone from './components/Dictaphone';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="/success" element={<Success />} />
           <Route path="/explore" element={<More />} />
           <Route path="/welcome" element={<GetStarted />} />
-          <Route path="/v" element={<Tcard />} />
+          <Route path="/v" element={<Dictaphone />} />
           {/* <Route path="/db" element={<SendData />} /> */}
           {/* <Route path="/dbdata" element={<DbData />} /> */}
           {/* <Route path="/t" element={<SeatSelector/>} /> */}
